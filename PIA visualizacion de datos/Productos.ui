@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>161</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/cct/WhatsApp Image 2022-11-13 at 11.17.32 PM (1).jpeg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagenes/el gordo en blanco.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCuchillos">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+border-radius:20px;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: rgb(165, 157, 157);</string>
+    </property>
+    <property name="text">
+     <string>Cuchillos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnHerramientas">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>310</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+border-radius:20px;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: #0F3966</string>
+    </property>
+    <property name="text">
+     <string>Herramientas</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAccesorios">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>380</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+border-radius:20px;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: #0F3966</string>
+    </property>
+    <property name="text">
+     <string>Accesorios</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOllas">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>440</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+border-radius:20px;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: rgb(165, 157, 157);</string>
+    </property>
+    <property name="text">
+     <string>Ollas</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMenu">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>450</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+border-radius:20px;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+background-color: #0F3966</string>
+    </property>
+    <property name="text">
+     <string>MENU</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>180</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/WhatsApp Image 2022-11-13 at 11.15.16 PM (2).jpeg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>500</y>
+      <width>231</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+border-radius:20px;
+font: 81 11pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Descripcion del producto</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../Logo 15.qrc"/>
+ </resources>
+ <connections/>
+</ui>
